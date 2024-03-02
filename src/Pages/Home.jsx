@@ -1,7 +1,9 @@
+import Counter from "../Components/Counter";
+
 const Home = () => {
   return (
-    <div>
-      <h1>Home</h1>
+    <div className=" max-w-screen-md mx-auto ">
+      <Counter></Counter>
     </div>
   );
 };
